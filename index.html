@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gulp Starter</title>
+  
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/owl.carousel.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700&subset=cyrillic,latin">
+  
+  <!-- localFont loader -->
+  <script>
+  !function(){"use strict";function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))c(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(c(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var a=document.createElement("link");a.href=o,a.rel="stylesheet",a.type="text/css",document.getElementsByTagName("head")[0].appendChild(a),document.cookie="font_css_cache"}}function c(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="static/css/helvetica.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();
+  </script>
+  <!-- /localFont loader -->
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<!-- header -->
+<header class="header">
+  <h1 class="header__title">Что такое Big Data?</h1>
+  <p class="header__subtitle">cовместный спецпроект постнауки<br>и университета иннополис о больших данных</p>
+  <em class="header__copyright">© Eric Fischer</em>
+</header>
+<!-- /header -->
+
+<!-- subheader -->
+<div class="subheader container">
+  <a class="subheader__logo hide-mobile" href="#"><img src="static/images/logo.png" alt="ПостНаука"></a>
+  <div class="subheader__social"><img src="static/images/social.png" alt=""></div>
+  <a class="subheader__sponsor hide-mobile" href="#"><img src="static/images/innopolis.png" alt="Иннополис"></a>
+</div>
+<!-- /subheader -->
+
+<main>
+  <!-- первая секция -->
+  <div class="container section">
+    <h2 class="section__title">Как большие данные стали одной из самых интересных задач <nobr>IT-индустрии</nobr></h2>
+
+    <div class="section__row">
+      <div class="card">
+        <img src="static/images/protasov.jpg" alt="Станислав Протасов" width="150" height="150" class="card__thumb">
+        <h3 class="card__name">Станислав Протасов</h3>
+        <p class="card__description">кандидат физико-математических наук, МФТИ, программист компании Parallels</p>
+      </div>
+
+      <p class="row__content">Большие данные&nbsp;&mdash; это совокупность технологий, которые призваны совершать три операции. <nobr>Во-первых</nobr>, обрабатывать большие по&nbsp;сравнению со&nbsp;&laquo;стандартными&raquo; сценариями объемы данных. <nobr>Во-вторых</nobr>, уметь работать с&nbsp;быстро поступающими данными в&nbsp;очень больших объёмах. То&nbsp;есть данных не&nbsp;просто много, но&nbsp;их&nbsp;постоянно становится всё больше и&nbsp;больше. <nobr>В-третьих</nobr>, они должны уметь работать со&nbsp;структурированными и&nbsp;плохо структурированными данными параллельно в&nbsp;разных аспектах. Большие данные предполагают, что на&nbsp;вход алгоритмы получают поток не&nbsp;всегда структурированной информации, и&nbsp;что из&nbsp;него можно извлечь больше, чем <nobr>какую-то</nobr> одну идею.</p>
+    </div>
+
+    <p class="hide-mobile">Типичный пример больших данных&nbsp;&mdash; это информация, поступающая с&nbsp;различных физических экспериментальных установок, например, Большого адронного коллайдера, который производит огромное количество данных, и&nbsp;делает это постоянно. Установка непрерывно выдает большие объемы данных, а&nbsp;ученые с&nbsp;их&nbsp;помощью учёные решают параллельно множество задач.</p>
+
+    <p class="hide-mobile">Появление больших данных в&nbsp;публичном пространстве было связано с&nbsp;тем, что эти данные затронули практически всех людей, а&nbsp;не&nbsp;только научное сообщество, где подобные задачи решаются давно. В&nbsp;публичную сферу технологии Big Data вышли, когда речь стала идти о&nbsp;вполне конкретном числе&nbsp;&mdash; числе жителей планете. 7&nbsp;миллиардов, которые собираются в&nbsp;социальных сетях и&nbsp;других проектах, которые агрегируют людей. YouTube, Facebook, ВКонтакте, где количество людей измеряется миллиардами, а&nbsp;количество операций, которые они совершают одновременно,&nbsp;&mdash; огромно. Поток данных в&nbsp;этом случае&nbsp;&mdash; это пользовательские действия. Например, данные того&nbsp;же хостинга YouTube, которые переливаются по&nbsp;сети в&nbsp;обе стороны. Под обработкой понимается не&nbsp;только интерпретация, но&nbsp;и&nbsp;возможность правильно обработать каждое из&nbsp;этих действий, то&nbsp;есть поместить его в&nbsp;нужное место и&nbsp;сделать так, чтобы эти данные каждому пользователю были доступны быстро, поскольку социальные сети не&nbsp;терпят ожидания.</p>
+
+    <a href="#" class="section__more btn">Читать далее</a>
+  </div>
+  <!-- /первая секция -->
+
+  <hr class="container">
+
+  <!-- вторая секция -->
+  <div class="container section section--video">
+    <div class="section__row">
+      <div class="card hide-mobile">
+        <a href="#"><img src="static/images/kyang-ku.jpg" alt="Кьянг Ку" width="170" height="113" class="card__thumb"></a>
+        <h3 class="card__name">Кьянг Ку</h3>
+        <p class="card__description">специалист в&nbsp;компьютерных науках Кьянг Ку о&nbsp;датамайнинге, системах «Твиттера» и&nbsp;«интернете вещей»</p>
+      </div>
+
+      <div class="row__content">
+        <h2 class="section__title">Управление большими массивами данных</h2>
+        <h3 class="section__subtitle">Как работает Data Mining?</h3>
+
+        <div class="card hide-desktop">
+          <a href="#"><img src="static/images/kyang-ku.jpg" alt="Кьянг Ку" width="170" height="113" class="card__thumb"></a>
+          <h3 class="card__name">Кьянг Ку</h3>
+          <p class="card__description">специалист в&nbsp;компьютерных науках Кьянг Ку о&nbsp;датамайнинге, системах «Твиттера» и&nbsp;«интернете вещей»</p>
+        </div>
+
+        <p>Наука о&nbsp;данных занимается извлечением знаний и&nbsp;значимой информации из&nbsp;крупных и&nbsp;сложных массивов данных. Извлечение информации выводит скрытые закономерности, спрятанные в&nbsp;данных, и&nbsp;позволяет лучше понимать данные. В&nbsp;этом значимость науки о&nbsp;данных. Она соединяет знания с&nbsp;реальностью. Она преобразует онлайновые знания в&nbsp;оффлайновые. Она меняет нашу жизнь, стратегии бизнеса, подход к&nbsp;выбору и&nbsp;помогает другим наукам технологии и&nbsp;социологическим исследованиям.</p>
+      </div>
+    </div>
+  </div>
+  <!-- /вторая секция -->
+
+  <!-- третья секция -->
+  <div class="section section--img">
+    <div class="container">
+      <p>Твиттер&nbsp;&mdash; отличный пример массивной динамической диаграммы. У&nbsp;Твиттера ежемесячно более 284&nbsp;миллионов активных пользователей. Они размещают более 500&nbsp;миллионов твитов в&nbsp;день. Отношения и&nbsp;общение между пользователями создают массивные динамические диаграммы, которые сложно не&nbsp;только понять, но&nbsp;даже визуализировать.</p>
+
+      <p>Одно из&nbsp;решений этой проблемы&nbsp;&mdash; обобщить данные. Это позволяет понять, как информация распространяется в&nbsp;системе, и&nbsp;какие пользователи&nbsp;&mdash; самые интересные и&nbsp;важные в&nbsp;процессе общения. Если определить важных пользователей, можно, например, остановить вирус, если таковой распространяется по&nbsp;системе, можно рекламировать товары в&nbsp;системах Твиттера, можно разобраться, как люди воспринимают информацию в&nbsp;онлайновые часы и&nbsp;чем это непохоже на&nbsp;оффлайновые часы. Одна из&nbsp;важнейших задач в&nbsp;этой области&nbsp;&mdash; понять миры онлайна и&nbsp;оффлайна.Например, данные того&nbsp;же хостинга YouTube, которые переливаются по&nbsp;сети в&nbsp;обе стороны. Под обработкой понимается не&nbsp;только интерпретация, но&nbsp;и&nbsp;возможность правильно обработать каждое из&nbsp;этих действий, то&nbsp;есть поместить его в&nbsp;нужное место и&nbsp;сделать так, чтобы эти данные каждому пользователю были доступны быстро, поскольку социальные сети не&nbsp;терпят ожидания.</p>
+
+      <a class="section__more btn btn--white" href="#">Читать далее</a>
+
+      <p class="section__copyright hide-mobile"><em>Изображение:  Eric Fischer —  Moscow locations of Twitter tweets</em></p>
+
+      <!-- <a class="section__more btn btn--white" href="#">Читать далее</a> -->
+    </div>
+  </div>
+  <!-- /третья секция -->
+
+  <!-- четвёртая секция -->
+  <div class="container section section--simple">
+    <h2 class="section__title">Репутация в&nbsp;социальных сетях</h2>
+    <h3 class="section__subtitle">Как вычислить степень нашего доверия к «друзьям»?</h3>
+
+    <p>Анализ социальных сетей&nbsp;&mdash; одна из&nbsp;самых популярных тем для исследований в&nbsp;наши дни. Если взять охват аудитории всех сайтов с&nbsp;социальными сетями, то&nbsp;мы&nbsp;увидим, что они привлекли самое большое число пользователей за&nbsp;всю историю интернета. Это означает, что у&nbsp;нас в&nbsp;руках огромное количество информации об&nbsp;активности людей в&nbsp;социальных сетях, равно как и&nbsp;об&nbsp;их&nbsp;структуре. Поэтому мы, люди, занимающиеся исследованиями, ищем пути такого использования этого большого количества данных, который дал&nbsp;бы нам возможность разобраться в&nbsp;них.</p>
+
+    <p>Нам всем знакомы понятия &laquo;доверие&raquo; и&nbsp;&laquo;репутация&raquo;. Доверие&nbsp;&mdash; это то, что необходимо для принятия того или иного решения. Без доверия вы&nbsp;не&nbsp;отдадите деньги банку. В&nbsp;социальных сетях пользователи делятся очень многим. Очевидно, что им&nbsp;не&nbsp;хотелось&nbsp;бы делиться личными вещами, такими как фото, с&nbsp;людьми, которым они не&nbsp;доверяют. Исследователи пытаются найти способ вычисления репутации&nbsp;друзей и&nbsp;прочих людей, с&nbsp;которыми мы&nbsp;связаны в&nbsp;социальных сетях, чтобы иметь возможность делиться личными данными и&nbsp;информацией лишь с&nbsp;теми, кому мы&nbsp;доверяем. Именно для этого ученые работают над вычислением репутации.</p>
+
+    <a href="#" class="section__more btn">Читать далее</a>
+  </div>
+  <!-- /четвёртая секция -->
+
+  <hr class="container hide-mobile">
+
+  <!-- пятая секция -->
+  <div class="container">
+    <div class="post">
+      <h2 class="post__title">Безопасность в социальных сетях</h2>
+      <p class="post__description">В&nbsp;конце <nobr>90-х</nobr> было ощущение, что интернет станет источником достоверной информации. Однако пользователи делятся всем, чем угодно, начиная от&nbsp;несуществующих цитат, заканчивая ничем не&nbsp;подкрепленными новостями. Поэтому возникла идея создания инструмента для измерения доверия. Исследователи создают платформы, в&nbsp;которых идет автоматический анализ того, насколько пользователи доверяют друг другу. Они изучают все пути, по&nbsp;которым пользователи взаимодействуют друг с&nbsp;другом. Становится очевидно, что пользователи отдают предпочтение небольшому числу других пользователей, доверяют им, читают и&nbsp;комментируют чаще. Платформа умеет сама анализировать поток информации, и&nbsp;на&nbsp;ее&nbsp;основе подсчитывать так называемый &laquo;индекс доверия&raquo;. Он&nbsp;измеряется в&nbsp;процентах, от&nbsp;нуля до&nbsp;ста, и&nbsp;претерпевает постоянные изменения: может как вырасти, так и&nbsp;упасть. Благодаря ему возможно судить, насколько пользователи доверяют друг другу.</p>
+      <a class="btn btn--white post__more" href="#">Читать далее</a>
+
+      <em class="post__copyright">Изображение  © Eric Fischer</em>
+    </div>
+  </div>
+  <!-- /пятая секция -->
+
+  <hr class="container hide-mobile">
+
+  <!-- шестая секция -->
+  <div class="container section section--video">
+    <div class="section__row">
+      <div class="card hide-mobile">
+        <a href="#"><img src="static/images/zykov.jpg" alt="Сергей Зыков" width="170" height="113" class="card__thumb"></a>
+        <h3 class="card__name">Сергей Зыков</h3>
+        <p class="card__description">о&nbsp;возникновении программной инженерии, сложности корпоративных систем и&nbsp;развитии технологий</p>
+      </div>
+
+      <div class="row__content">
+        <h2 class="section__title">Как разрабатывают информационные системы для корпораций?</h2>
+        <h3 class="section__subtitle">%Подзаголовок%</h3>
+
+        <div class="card hide-desktop">
+          <a href="#"><img src="static/images/zykov.jpg" alt="Сергей Зыков" width="170" height="113" class="card__thumb"></a>
+          <h3 class="card__name">Сергей Зыков</h3>
+          <p class="card__description">о&nbsp;возникновении программной инженерии, сложности корпоративных систем и&nbsp;развитии технологий</p>
+        </div>
+
+        <p>Корпорации принципиально отличаются компаний, и прежде всего, размером. Второе – это распределенность, ведь, как правило, корпорация – это не один офис, а географически разные точки, которые чем-то между собой связаны. И третье – это диверсификация, то есть речь идет не об одном виде бизнеса. Возьмем Microsoft: они создают и продают программное обеспечение, но и есть специальная компания Microsoft Research, которая занимается исследованием перспективных направлений деятельности. Для корпораций необходимы средства информационной поддержки, для ведения на разных уровнях: это и учет, и планирование, и управление, и прогнозы. Для этого и создают корпоративные системы.</p>        
+      </div>
+    </div>
+
+    <p class="hide-mobile">В 1968 году была конференция НАТО, где возник такой вопрос: а можем ли мы строить крупное, надежное, поддерживающее большое количество распределенных взаимодействующих единиц программное обеспечение. И ответ был – не можем. Не можем в принципе, потому что жизненный цикл выглядит совершенно иначе. Основные проблемы корпоративных информационных систем сводятся к проблемам программной инженерии, а также к анализу данных, интеграции, консолидации и представлению отчетной информации.</p>
+
+    <a class="section__more btn" href="#">Читать далее</a>
+  </div>
+  <!-- /шестая секция -->
+
+  <hr class="container">
+
+  <!-- слайдер -->
+  <div class="container">
+    <div class="slider" id="slider">
+
+      <div class="slide">
+        <img class="slide__thumb" src="static/images/book1.png" alt="">
+        <p class="slide__description">Книга &laquo;Software Architecture in&nbsp;Practice&raquo; выдержала уже три издания. Коллектив авторов предлагаемой книги представляет Институт программной инженерии, который, по&nbsp;сути дела, является колыбелью программной инженерии, и&nbsp;разрабатывает программное обеспечение, в&nbsp;том числе, для Пентагона.</p>
+        <p class="slide__about"><em>Software Architecture in Practice</em><br>Авторы: Лен Баас, Пол Клементс, Рик Кацман<br><em>ISBN-13: 978-0321815736</em></p>
+      </div>
+
+      <div class="slide">
+        <img class="slide__thumb" src="static/images/book2.png" alt="">
+        <p class="slide__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero obcaecati non dolorum dolorem, quod maiores ducimus corporis vitae repellendus dignissimos, aliquam, eveniet reprehenderit a praesentium officiis eius architecto commodi ab?</p>
+        <p class="slide__about"><em>Software Architecture in Practice</em><br>Авторы: Лен Баас, Пол Клементс, Рик Кацман<br><em>ISBN-13: 978-0321815736</em></p>
+      </div>
+
+      <div class="slide">
+        <img class="slide__thumb" src="static/images/book3.png" alt="">
+        <p class="slide__description">Книга &laquo;Software Architecture in&nbsp;Practice&raquo; выдержала уже три издания. Коллектив авторов предлагаемой книги представляет Институт программной инженерии, который, по&nbsp;сути дела, является колыбелью программной инженерии, и&nbsp;разрабатывает программное обеспечение, в&nbsp;том числе, для Пентагона.</p>
+        <p class="slide__about"><em>Software Architecture in Practice</em><br>Авторы: Лен Баас, Пол Клементс, Рик Кацман<br><em>ISBN-13: 978-0321815736</em></p>
+      </div>
+
+      <div class="slide">
+        <img class="slide__thumb" src="static/images/book4.png" alt="">
+        <p class="slide__description">Южный Треугольник, как бы это ни казалось парадоксальным, выбирает восход . Комета Хейла-Боппа ничтожно оценивает космический возмущающий фактор. Ганимед представляет собой азимут. Сарос вызывает эллиптический сарос.</p>
+        <p class="slide__about"><em>Software Architecture in Practice</em><br>Авторы: Лен Баас, Пол Клементс, Рик Кацман<br><em>ISBN-13: 978-0321815736</em></p>
+      </div>
+
+      <div class="slide">
+        <img class="slide__thumb" src="static/images/book5.png" alt="">
+        <p class="slide__description">Южный Треугольник, как бы это ни казалось парадоксальным, выбирает восход . Комета Хейла-Боппа ничтожно оценивает космический возмущающий фактор. Ганимед представляет собой азимут. Сарос вызывает эллиптический сарос.</p>
+        <p class="slide__about"><em>Software Architecture in Practice</em><br>Авторы: Лен Баас, Пол Клементс, Рик Кацман<br><em>ISBN-13: 978-0321815736</em></p>
+      </div>
+
+    </div>
+  </div>
+  <!-- /слайдер -->
+
+  <!-- спонсор -->
+  <div class="sponsor">
+    <div class="sponsor__text">Материал подготовлен при&nbsp;поддержке:</div>
+    <a class="sponsor__logo" href="#"><img src="static/images/sponsor.png" alt="Иннополис"></a>
+  </div>
+  <!-- /спонсор -->
+
+  <hr class="last container">
+  
+</main>
+
+<footer class="footer container">
+  <a href="#" class="footer__logo"><img src="static/images/logo-small.png" alt="ПостНаука"></a>
+  <ul class="footer__menu">
+    <li><a href="#">О спецпроекте</a></li>
+    <li><a href="#">Партнёрам</a></li>
+    <li><a href="#">Реклама</a></li>
+  </ul>
+  <p class="footer__copyright">© <a href="#">ПостНаука</a>, 2012-2015. Использование материалов сайта postnauka.ru разрешено только при наличии активной ссылки на источник. Все права на картинки и тексты принадлежат их авторам.</p>
+  <div class="footer__counters"><img src="static/images/counters.png" alt=""></div>
+</footer>
+
+<script src="static/js/jquery-2.1.4.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/all.js"></script>
+</body>
+</html>

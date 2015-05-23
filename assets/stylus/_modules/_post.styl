@@ -1,0 +1,49 @@
+.post
+  position relative
+  max-width 830px
+  margin 80px auto 0
+  padding 215px 60px 35px 60px
+  
+  background url("../images/bg-section5.png")
+  background-size cover
+
+.post__title
+  font-size 12px
+  margin-bottom 20px
+  text-transform uppercase
+  letter-spacing .15em
+
+.post__description
+  margin-bottom 30px
+  
+  font-size 14px
+  line-height 24px
+  
+  color #fff
+
+.post__copyright
+  position absolute
+  bottom 42px
+  right 60px
+  
+  font-family "Times New Roman", serif
+  font-size 14px
+
+
+
+// RESPONSIVE STUFF
+@media screen and (max-width 1030px)
+  .post
+    margin-bottom 60px
+    padding 124px 9.375% 35px 9.375%
+    background-position 20% 0%
+  
+  .post__description
+    margin-bottom 26px
+  
+  .post__copyright
+    right 9.375%
+
+@media screen and (max-width 480px)
+  .post__copyright
+    display none

@@ -1,0 +1,113 @@
+.slider
+  width 830px
+  margin 60px auto
+
+  .owl-prev, .owl-next
+    position absolute
+    top 45%
+    width 23px
+    height 49px
+  
+  .owl-prev
+    left -70px
+    background url("../images/owl-prev.png") no-repeat
+    background-size cover
+    
+  .owl-next
+    right -70px
+    background url("../images/owl-next.png") no-repeat
+    background-size cover
+  
+  .owl-pagination
+    position absolute
+    bottom -35px
+    display block
+    width 100%
+    text-align center
+  
+  .owl-page
+    display inline-block
+    width 12px
+    height 12px
+    margin-left 18px
+    
+    background #fff
+    
+    border 1px solid #000
+    border-radius 50%
+    &.active
+      background #000
+
+
+.slide
+  position relative
+  width 830px
+  background #dac2ab
+  padding 56px
+  
+  &:before
+    content ""
+    position absolute
+    top 18px
+    left 18px
+    right 18px
+    bottom 18px
+    border 2px solid #fff
+
+.slide__description
+  position absolute
+  top 56px
+  left 330px
+  
+  font-family headings-ff
+  font-size 20px
+  line-height 28px
+  
+  width 460px
+
+.slide__about
+  position absolute
+  bottom 56px
+  left 330px
+
+  color #fff
+  
+  em
+    font-family "Times New Roman", serif
+
+
+
+// RESPONSIVE STUFF
+@media screen and (max-width 1030px)
+  .slider
+    width 90.625%
+    
+    .owl-pagination
+      display block
+      text-align center
+    
+    .owl-prev, .owl-next
+      top 180px
+    
+    .owl-prev
+      left 60px
+    
+    .owl-next
+      right 60px
+    
+  .slide
+    width 100%
+    padding 9.375%
+  
+  .slide__thumb
+    display block
+    margin 20px auto 0
+  
+  .slide__description
+    position static
+    width 100%
+    margin 36px auto
+  
+  .slide__about
+    position static
+    margin-bottom 16px

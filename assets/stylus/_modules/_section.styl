@@ -1,0 +1,149 @@
+.section
+  &--video
+    margin-bottom 60px
+    
+    .section__row
+      margin-top 0
+      width 100%
+      
+      & > .card
+        position relative
+        margin-right 70px
+        margin-bottom 50px
+        float left
+        
+      & > .row__content
+        margin-left 0
+        width 100%
+        
+        p
+          max-width 80.58252427184466%
+          margin-left auto
+          margin-right auto
+  
+  &--img
+    margin-bottom 70px
+    padding-top 35px
+    padding-bottom 40px
+    
+    background url("../images/bg-section3.png")
+    background-size cover
+    
+    color #fff
+    
+    p
+      width 51.45631067961165%
+      margin-left 48.54368932038835%
+      margin-top 30px
+    
+    .section__copyright
+      margin-top 24px
+      
+      font-size 14px
+      font-family "Times New Roman", serif
+    
+    .section__more
+      margin-left 48.54368932038835%
+      margin-top 30px
+
+  & > p
+    container(80.58252427184466%)
+    margin-bottom 30px
+    
+    line-height 30px
+
+.section__title
+  container(80.58252427184466%)
+
+  font-size 36px
+  line-height 1
+  text-align center
+
+.section__subtitle
+  margin-bottom 20px
+  margin-top 14px
+  
+  color #dac2ab
+  
+  font-size 12px
+  line-height 12px
+  
+  text-transform uppercase
+  letter-spacing .15em
+  text-align center
+
+.section__row
+  position relative
+  width 930px
+  min-height 320px
+  margin-top 36px
+  margin-bottom 36px
+
+  & > .row__content
+    width 630px
+    margin-left 300px
+    line-height 30px
+  
+  & > .card
+    position absolute
+    left 0
+    top 0
+
+.row__content
+  & > .section__title
+    width 100%
+    margin 0
+    
+    text-align left
+    
+  & > .section__subtitle
+    text-align left
+
+.section__more
+  margin-left 100px
+
+
+
+// RESPONSIVE STUFF
+@media screen and (max-width 1030px)
+  .section
+    margin-bottom 36px
+    
+    &--img
+      margin-bottom 65px
+      padding-top 16px
+      padding-bottom 30px
+      
+      p
+        width 81.25%
+        margin 30px auto 0 auto
+      
+      .section__more
+        margin-top 30px
+        margin-left 9.375%
+  
+  .section__title
+    font-size 30px
+  
+  .section__row
+    width 100%
+    
+    & > .row__content
+      width 81.25%
+      margin auto
+    
+    & > .card
+      position relative
+      display block
+      margin auto
+      margin-bottom 46px
+  
+  .row__content
+    .section__title, .section__subtitle
+      text-align center
+    
+    .card
+      margin 36px auto
+  
+  .section__more
+    margin-left 9.375%

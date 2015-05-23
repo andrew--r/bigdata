@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=$("#slider");e.owlCarousel({items:1,itemsDesktop:[1199,1],itemsDesktopSmall:[980,1],itemsTablet:[768,1],itemsMobile:[479,1],navigation:!0,pagination:!0,navigationText:!1,transitionStyle:"fade",slideSpeed:400,autoHeight:!0,responsive:!0})});

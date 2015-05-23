@@ -1,0 +1,76 @@
+html, body
+  font-size bfs
+  line-height blh
+  font-family bff
+  color text-color
+
+h1, h2, h3, h4, h5, h6
+  font-family headings-ff, sans-serif
+  margin 0
+
+p, hr
+  margin 0
+
+hr
+  border 0
+  border-top 1px solid #dadada
+  margin 70px 0
+
+hr.last
+  max-width 1030px
+  margin 45px auto 50px
+
+.container
+  max-width 1030px
+  margin-left auto
+  margin-right auto
+
+.btn
+  display inline-block
+  width 150px
+  padding-top 13px
+  padding-bottom 13px
+  
+  font-family headings-ff
+  font-size 12px
+  line-height 12px
+  
+  text-align center
+  text-decoration none
+  text-transform uppercase
+  letter-spacing .1em
+  
+  color #fff
+  background #dac2ab
+  border 1px solid #dac2ab
+  
+  transition background .1s ease-out
+  
+  &:hover
+    background transparent
+    color #dac2ab
+  
+  &--white
+    background #fff
+    color #333
+    border 1px solid #fff
+    &:hover
+      background transparent
+      color #fff
+
+
+// RESPONSIVE STUFF
+@media screen and (max-width 1030px)
+  .hide-mobile
+    display none !important
+  
+  hr
+    width 81.25%
+    margin 40px auto
+  
+  hr.last
+    margin 65px auto 30px
+
+@media screen and (min-width 1030px)
+  .hide-desktop
+    display none
